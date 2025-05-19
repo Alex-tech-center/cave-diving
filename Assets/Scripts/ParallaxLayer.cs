@@ -13,11 +13,11 @@ public class Parallax : MonoBehaviour
         switch (layer)
         {
             case Layer.Foreground:
-                return speed * 2;
+                return speed * 4;
             case Layer.Midground:
-                return speed * 1f;
+                return speed * 3f;
             case Layer.Background:
-                return speed * 0.1f;
+                return speed * 1f;
             default:
                 return speed * 1;
         }
